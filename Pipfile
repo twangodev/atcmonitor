@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+faster-whisper = "*"
+huggingface-hub = "==0.21.3"
+tokenizers = "*"
+datasets = "==2.19.0"
+numpy = "==1.26.4"
+wget = "*"
+text-unidecode = "*"
+torchaudio = "*"
+transformers = "*"
+webrtcvad = "*"
+"pyannote.audio" = "*"
+eyed3 = "==0.7.11"
+pyaudioanalysis = "*"
+imblearn = "*"
+scikit-learn = "*"
+speechbrain = "*"
+librosa = "*"
+openai-whisper = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
