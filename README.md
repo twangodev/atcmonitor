@@ -33,7 +33,7 @@ Rules can then be written to alert controllers when aircraft deviate from these 
 
 ## Credits
 
-This repository uses `dump1090` for decoding live ADS-B data and `RTLSDR-Airband` for decoding live VHF data.
+This repository uses [dump1090](https://github.com/flightaware/dump1090) for decoding live ADS-B data and [RTLSDR-Airband](https://github.com/rtl-airband/RTLSDR-Airband) for decoding live VHF data.
 
 Historical data is provided by the [OpenSky Network](https://opensky-network.org/), which offers a large dataset of air traffic control data.
 
