@@ -1,0 +1,13 @@
+services:
+
+  rtlsdr_airband:
+    image: fredclausen/rtlsdrairband
+    tty: true
+    container_name: rtlsdrairband
+    restart: always
+    devices:
+      - /dev/bus/usb:/dev/bus/usb
+    ports:
+      - 8000:8000
+    environment:
+      - RTLSDRAIRBAND_FREQS=121.8

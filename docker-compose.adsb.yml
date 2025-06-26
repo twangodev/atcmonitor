@@ -1,0 +1,15 @@
+services:
+
+  dump1090:
+    image: jraviles/dump1090
+    ports:
+      - 8080:8080
+      - 30001:30001
+      - 30002:30002
+      - 30003:30003
+      - 30004:30004
+      - 30005:30005
+      - 30104:30104
+    devices:
+      - /dev/bus/usb
+    restart: unless-stopped
